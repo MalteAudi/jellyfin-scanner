@@ -37,10 +37,10 @@ Start with:
 ```bash
 node index.js
 ```
-
-## Using Docker Compose
-Clone this repo, edit the .env-file with your data and run ``docker compose up -d`` in the directory.
 Or with PM2:
 ```bash
 pm2 start index.js --name "jellyfin-scanner"
 ```
+
+## Using Docker Compose
+Clone this repo, edit the .env-file with your data and run ``docker compose up -d`` in the directory.
