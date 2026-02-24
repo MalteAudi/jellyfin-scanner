@@ -11,6 +11,7 @@ A lightweight Node.js application to quickly trigger library scans on your Jelly
 - Node.js (v16 or higher)
 - A running Jellyfin instance
 - A Jellyfin API Key
+- A TMDB API Key
 
 ## Installation
 ```bash
@@ -36,6 +37,9 @@ Start with:
 ```bash
 node index.js
 ```
+
+## Using Docker Compose
+Clone this repo, edit the .env-file with your data and run ``docker compose up -d`` in the directory.
 Or with PM2:
 ```bash
 pm2 start index.js --name "jellyfin-scanner"
