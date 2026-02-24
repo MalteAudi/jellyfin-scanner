@@ -43,4 +43,5 @@ pm2 start index.js --name "jellyfin-scanner"
 ```
 
 ## Using Docker Compose
-Clone this repo, edit the .env-file with your data and run ``docker compose up -d`` in the directory.
+Clone this repo, edit the .env-file with your data.
+Run ``docker compose build`` and then run ``docker compose up -d`` in the directory.
